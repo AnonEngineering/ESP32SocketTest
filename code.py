@@ -59,7 +59,7 @@ CMD_IN_N =      (b'input \"network\"\r\n')
 
 # Functions ----------------------------------------------------------------------------#
 def open_socket():
-    # If socket connects then we should get NOKEY or 8 byte hash key
+    # If socket connects then we should get NOKEY or 4 byte hash key
     print("In open_socket")
     print(esp.socket_status(0))
     #print(cmd_socket.connected())
