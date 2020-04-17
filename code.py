@@ -63,7 +63,6 @@ def open_socket():
     print("In open_socket")
     print(esp.socket_status(0))
     #print(cmd_socket.connected())
-    time.sleep(1)
     try:
         # sockaddr is 32 bit packed IP address
         sockaddr = socket.getaddrinfo(WLAN_PJ_IP, ADCP_PORT)[0][-1] # VPL Client mode
@@ -251,5 +250,5 @@ print("Free memory: ", gc.mem_free())
 print()
 
 # Main program loop --------------------------------------------------------------------#
-while True:
-    pass
+#while True:
+    #pass
