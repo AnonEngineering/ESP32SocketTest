@@ -239,9 +239,9 @@ print()
 # Open a socket to the device
 open_socket()
 # See if we need to generate a SHA256 hash
-auth_check()
+#auth_check()
 # Get the various params
-get_status()
+#get_status()
 # Close the socket
 close_socket()
 
